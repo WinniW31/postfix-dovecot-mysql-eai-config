@@ -1,0 +1,20 @@
+
+#### Create MySQL Database Command ####
+CREATE DATABASE eaimail;
+
+#### Create MySQL User Command ####
+CREATE USER dbuser@localhost IDENTIFIED BY 'dbuserpass';
+GRANT SELECT, INSERT, UPDATE, DELETE ON eaimail.* TO dbuser@localhost;
+FLUSH PRIVILEGES;
+
+#### Create MySQL Table Command ####
+CREATE TABLE domains (domain varchar(50) NOT NULL, PRIMARY KEY (domain));
+CREATE TABLE forwardings (source varchar(80) NOT NULL, destination TEXT NOT NULL, PRIMARY KEY (source));
+CREATE TABLE users (email varchar(80) NOT NULL, password varchar(256) NOT NULL, PRIMARY KEY (email));
+
+#### Insert MySQL User Command ####
+INSERT INTO domains (domain) VALUES ('yourdomain');
+INSERT INTO domains (domain) VALUES ('yourEAIdomain');
+INSERT INTO users (email, password) VALUES ('youremail', 'yourpassword');
+INSERT INTO users (email, password) VALUES ('yourEAIemail', 'yourpassword');
+INSERT INTO forwardings (source,destination) VALUES ('yourEAIemail','youremail');

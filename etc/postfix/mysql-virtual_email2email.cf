@@ -1,0 +1,5 @@
+user = dbuser
+password = dbuserpass
+dbname = eaimail
+query = SELECT email FROM users WHERE email='%s'
+hosts = 127.0.0.1
