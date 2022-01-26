@@ -1,4 +1,4 @@
-# Postfix Dovecot and MySQL configuration to support EAI from THNICF
+# Postfix Dovecot and MySQL configuration to support EAI from THNICF (Example)
 On Jan 15, 2022, THNIC organized a free, online 3-hour workshop for system administrators/developers, students and interested persons. The workshop, delivered in Thai language, was run by Titipong Parkinsri of Thai Name Server Co., Ltd. (.th / .ไทย registry operator) and Ananwin Pongsaboripat of THNICF (Thailand Network Information Center Foundation). The Email Server with EAI Support workshop taught participants to set up an email server using Postfix, Dovecot, MySQL and Roundcube on the Ubuntu operating system and configure parameters to support EAI. There were 76 participants who actively attended the workshop.
 
 INTRODUCTION
