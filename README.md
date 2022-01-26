@@ -5,6 +5,10 @@ INTRODUCTION
 ------------
 This repository contain basic configuration on Postfix, Dovecot and MySQL following on our workshop and [THNICF Wiki](https://wiki.thnic.or.th/th/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2_EAI_Mail_Server_%E0%B8%9A%E0%B8%99_Ubuntu_20). You can copy and apply our setting to your email server as this is a minimum configuration to make email server support [EAI (Email Address Internationalization)](https://xn--12cn4frcvb5f.xn--o3cw4h/%e0%b8%8a%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%ad%e0%b8%b5%e0%b9%80%e0%b8%a1%e0%b8%a5%e0%b8%a0%e0%b8%b2%e0%b8%a9%e0%b8%b2%e0%b9%84%e0%b8%97%e0%b8%a2-eai/).
 
+This repository consist of configuration files of Postfix, Dovecot and MySQL which you can find on "etc" folder. 
+All files are placed in the same place on server location. 
+Please also change some configuration to your domain name and your host name also your SSL certificate key (if used).
+
 Please feel free to fork or modified this repositories.
 
 
@@ -52,6 +56,6 @@ MORE INFORMATION
 
 2. [รู้จัก.ไทย](https://xn--12cn4frcvb5f.xn--o3cw4h/)
 
-3. [THNICF Wiki](https://wiki.thnic.or.th/th/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2_EAI_Mail_Server_%E0%B8%9A%E0%B8%99_Ubuntu_20). 
+3. [THNICF Wiki](https://wiki.thnic.or.th/th/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2_EAI_Mail_Server_%E0%B8%9A%E0%B8%99_Ubuntu_20)
 
 4. [THNICF Youtube](https://www.youtube.com/user/thnicf)
