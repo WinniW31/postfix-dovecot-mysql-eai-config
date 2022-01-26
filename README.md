@@ -28,7 +28,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program. If not, see [www.gnu.org/licenses/][gpl].
+along with this program. If not, see [www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 
 This file forms part of the Roundcube Webmail Software for which the
 following exception is added: Plugins and Skins which merely make
